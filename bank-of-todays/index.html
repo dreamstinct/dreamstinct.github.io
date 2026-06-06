@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bank of Todays — Invest in Your Days</title>
+  <meta name="description" content="Every day, you invest your time. Bank of Todays gives you a place to make that investment visible, intentional, and lasting — one deposit at a time." />
+
+  <!-- Open Graph (link previews in iMessage, Telegram, Twitter, etc.) -->
+  <meta property="og:title" content="Bank of Todays" />
+  <meta property="og:description" content="Every day, you invest your time. Make it visible, intentional, and lasting." />
+  <meta property="og:image" content="https://dreamstinct.github.io/bank-of-todays/icon.png" />
+  <meta property="og:url" content="https://dreamstinct.github.io/bank-of-todays/" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary" />
+
+  <link rel="icon" type="image/png" href="/bank-of-todays/icon.png" />
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #EAEAEA;
+      color: #2D2D2D;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 48px 24px;
+    }
+
+    .card {
+      background: #F9F7F2;
+      border-radius: 24px;
+      padding: 64px 48px;
+      max-width: 560px;
+      width: 100%;
+      text-align: center;
+      border: 1px solid rgba(0,0,0,0.07);
+    }
+
+    .icon {
+      width: 96px;
+      height: 96px;
+      border-radius: 22px;
+      margin: 0 auto 32px;
+      overflow: hidden;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    }
+
+    .icon img {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    h1 {
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: 8px;
+      letter-spacing: -0.5px;
+    }
+
+    .subtitle {
+      font-size: 15px;
+      color: #888;
+      margin-bottom: 32px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 600;
+    }
+
+    p {
+      font-size: 17px;
+      line-height: 1.7;
+      color: #555;
+      margin-bottom: 24px;
+    }
+
+    .download-section {
+      margin-top: 8px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 24px;
+    }
+
+    .appstore-btn {
+      display: inline-block;
+      background: #2D2D2D;
+      color: #F9F7F2;
+      text-decoration: none;
+      border-radius: 14px;
+      padding: 14px 28px;
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: 0.2px;
+      transition: opacity 0.15s;
+    }
+
+    .appstore-btn:hover { opacity: 0.75; }
+
+    .appstore-btn .store-label {
+      font-size: 11px;
+      font-weight: 500;
+      opacity: 0.6;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      display: block;
+      margin-bottom: 2px;
+    }
+
+    .qr-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .qr-wrapper {
+      background: #F9F7F2;
+      border: 1px solid rgba(0,0,0,0.08);
+      border-radius: 16px;
+      padding: 14px;
+      display: inline-block;
+    }
+
+    #qrcode canvas, #qrcode img {
+      display: block;
+      border-radius: 6px;
+    }
+
+    .qr-label {
+      font-size: 12px;
+      color: #aaa;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      font-weight: 500;
+    }
+
+    footer {
+      margin-top: 48px;
+      font-size: 13px;
+      color: #aaa;
+      text-align: center;
+    }
+
+    footer a {
+      color: #aaa;
+      text-decoration: none;
+      margin: 0 12px;
+    }
+
+    footer a:hover { color: #2D2D2D; }
+
+    @media (max-width: 480px) {
+      .card { padding: 40px 24px; }
+      h1 { font-size: 26px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="icon"><img src="/bank-of-todays/icon.png" alt="Bank of Todays" /></div>
+    <h1>Bank of Todays</h1>
+    <p class="subtitle">Invest in your days.</p>
+    <p>
+      Every day, you invest your time — in work, in people, in moments that quietly shape who you become.
+      Bank of Todays gives you a place to make that investment visible, intentional, and lasting.
+    </p>
+    <p>
+      One deposit a day. A personal record of your lived experience, built over time.
+    </p>
+
+    <div class="download-section">
+      <a class="appstore-btn" href="https://apps.apple.com/us/app/bank-of-todays/id6760856883" target="_blank" rel="noopener">
+        <span class="store-label">Download on the</span>
+        App Store
+      </a>
+
+      <div class="qr-section">
+        <a href="https://apps.apple.com/us/app/bank-of-todays/id6760856883" target="_blank" rel="noopener">
+          <div class="qr-wrapper">
+            <img
+              src="https://api.qrserver.com/v1/create-qr-code/?size=148x148&data=https%3A%2F%2Fapps.apple.com%2Fus%2Fapp%2Fbank-of-todays%2Fid6760856883&bgcolor=F9F7F2&color=2D2D2D&margin=4&qzone=1"
+              alt="QR code — scan to open App Store"
+              width="148"
+              height="148"
+            />
+          </div>
+        </a>
+        <span class="qr-label">Scan to open App Store</span>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <a href="/bank-of-todays/privacy">Privacy Policy</a>
+    <a href="/bank-of-todays/terms">Terms of Use</a>
+    <a href="mailto:igor@dreamstinct.org">Support</a>
+  </footer>
+</body>
+</html>
